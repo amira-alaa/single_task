@@ -1,0 +1,135 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+    
+}
+.parent{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    font-family: "Karla", sans-serif;
+}
+.one{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.hone{
+    color:hsl(179, 62%, 43%);
+    width: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+h3{
+    color:hsl(71, 73%, 54%);
+    width: auto;
+    padding-left: 50px;
+
+}
+.pone{
+    color:hsl(218, 22%, 67%);
+    width: 500px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin:0px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    color: white;
+    margin:auto;
+}
+.two_one{
+    width: 350px;
+    background-color: hsl(179, 62%, 43%);
+    margin: 0px;
+    border-bottom-left-radius: 5px;
+}
+.hhtwo{
+    width: 270px;
+    color: white;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.two_one1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    
+}
+.two_two{
+    width: 350px;
+    background-color:hsl(179, 62%, 43%) ;
+    opacity: 0.9;
+    border-bottom-right-radius: 5px;
+}
+.ptwo{
+    padding-left: 50px;
+    color:hsl(204, 43%, 93%);
+}
+h1{
+    margin:0px;
+}
+.small{
+    color:hsl(204, 43%, 93%);
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 0px;
+    font-size: 15px;
+}
+.ptwo_two{
+    width:185px;
+    padding-left: 50px;
+    color:hsl(204, 43%, 93%);
+}
+button{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width:210px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    cursor: pointer;
+}
+@media (max-width:400px) {
+    .parent{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    h3{
+        color:hsl(71, 73%, 54%);
+        width: 280px;
+        padding-left: 50px;
+    
+    }
+    .pone{
+        width: 280px;    
+    }
+
+    .two{
+        display: flex;
+        flex-direction: column;
+    }
+    .parent ,.one,.two, .two_one , .two_two{
+        width:360px;
+    }
+    .one{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .two_one{
+        border-bottom-left-radius: 0px;
+    }
+    .two_two{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
